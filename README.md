@@ -36,7 +36,6 @@ plt.legend()
 plt.show()
 reconstructed_signal = resample(signal_sampled, len(t))
 plt.figure(figsize=(10, 4))
-plt.plot(t, signal, label='Continuous Signal', alpha=0.7)
 plt.plot(t, reconstructed_signal, 'r--', label='Reconstructed Signal (fs = 100 Hz)')
 plt.title('Reconstruction of Sampled Signal (fs = 100 Hz)')
 plt.xlabel('Time [s]')
@@ -46,7 +45,8 @@ plt.legend()
 plt.show()
 ```
 ## Output Waveform
-![WhatsApp Image 2025-03-18 at 11 11 45_cecaa324](https://github.com/user-attachments/assets/e73b1e1e-ff67-47ff-aca4-974c84a44063)
-![WhatsApp Image 2025-03-18 at 11 12 06_464e1f81](https://github.com/user-attachments/assets/4c1f9e1d-bf6e-450d-b89d-7771d2f86d45)
+![image](https://github.com/user-attachments/assets/13b1ba72-1cb4-401a-8fad-04b989ae7d4e)
+![image](https://github.com/user-attachments/assets/06e3c721-fe6b-4ed4-bbae-dbe6b13070ee)
+![image](https://github.com/user-attachments/assets/8f2267e0-a895-464c-9647-5a6094c0bfd0)
 ## Result
 The result of ideal sampling is a discrete-time signal that retains all the information of the original continuous-time signal is obtained and output is verified.
