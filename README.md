@@ -1,6 +1,9 @@
+## Aim
+To study and analyze Ideal Sampling (Impulse Sampling), where a continuous-time signal is sampled using an impulse train, and observe its effects in both time and frequency domains. The experiment aims to verify the sampling theorem, analyze spectral characteristics, and understand signal reconstruction.
 
-
-
+## Tools Required
+Personal computer installed with SCILAB
+## Program
 ```clf; // Clear the current figure
 t = 0:0.001:1; // Time vector from 0 to 1 with a small step
 f = 5; // Frequency of the sine wave (5 Hz)
@@ -48,4 +51,10 @@ plot2d(t, xr3, style=4, rect=[0, -1.5, 1, 1.5]); // Reconstructed signal from 6 
 title('Reconstructed Signals');
 xlabel('Time (s)');
 ylabel('Amplitude');
-legend('Continuous-time', 'Reconstructed from 20 Hz samples','Reconstructed from 10 Hz samples','Reconstructed from 6 Hz samples');```
+legend('Continuous-time', 'Reconstructed from 20 Hz samples','Reconstructed from 10 Hz samples','Reconstructed from 6 Hz samples');
+```
+## Output Waveform
+
+
+## Result
+The result of ideal sampling is a discrete-time signal that retains all the information of the original continuous-time signal is obtained and output is verified.
