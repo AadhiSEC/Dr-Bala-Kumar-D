@@ -1,6 +1,10 @@
 # Natural sampling
+## Aadhithya SV
+## 212223060001
 ## Aim
+To achieve natural sampling for experimental purposes, use a sampling signal (pulse train) to sample the continuous signal at regular intervals. Implement it using Python with NumPy for signal generation and Matplotlib for visualization.
 ## Tools required
+Python: A versatile programming language used for scientific computing and signal processing. NumPy: A powerful numerical library in Python for performing array-based operations and mathematical computations. Matplotlib: A plotting library for generating high-quality graphs and visualizations of data, essentialfor demonstrating the sampling process.
 ## Program
 
 ```
@@ -65,3 +69,6 @@ plt.show()
 ```
 ## Output waveform
 ![image](https://github.com/user-attachments/assets/77189f5c-45fc-44d3-9486-b94007b16412)
+## Result
+The Natural sampling waveforms are obtained and the output is verified.
+
